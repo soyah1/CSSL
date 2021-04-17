@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: Roboto,Arial,sans-serif;
     color: #252525;
     margin: auto;
     max-width: 800px;
@@ -66,5 +66,58 @@ flex-grow: 1;
     position: absolute;
     bottom: 40px;
     right: 0;
+}
+.wrapper{
+display: grid;
+grid-template-columns: 30% 30%;
+display: grid;
+grid-template-columns: auto auto auto;
+padding: 10px;
+
+}
+
+.pays {
+    padding: 10px;
+}
+.intro-title2{
+    color: #5dc6b0;
+    text-align: center;
+}
+.text-2{
+display: flex;
+text-align: center;
+}
+.div22{
+    text-align: center;
+    color: #333;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.favorite-styled{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+.div1{
+    text-align: center;
+}
+.footer1{
+text-align: center;
 }
 
